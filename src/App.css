@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans- 'se' rif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.App {
+  height: 100vh;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  align-items: center;
+  margin: 16px 32px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid rgba(137, 141, 141, 0.6);
+  border-radius: 8px;
+  width: 948px;
+  height: 48px;
+  padding: 1rem;
+}
+
+form input,
+form button {
+  border: none;
+  background: #ffff;
+}
+
+.input-search {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 8px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button-cart,
+.button-login {
+  background: #ffff;
+  border: none;
+}
+
+.container-text {
+  height: 100%;
+  background: #e6e7eb;
+}
+
+.content-title {
+  max-width: 1370px;
+  margin: 0 auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  color: #000000;
+  padding-top: 80px;
+}
+
+.toggle-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 216px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  border: 1px solid #9ca0ae;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .container-text {
+    height: initial;
+  }
+
+  .search input,
+  form  {
+    width: 0;
+    height: 0;
+    border: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .text-shelf {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 328px;
+    margin: 0 auto;
+  }
+}

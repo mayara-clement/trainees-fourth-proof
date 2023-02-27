@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+.product-card {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 22px;
+  max-width: 294px;
+  border: 0.5px solid #fff;
+}
+
+.product-card:hover{
+  border: 0.5px solid #000;
+} 
+
+.product-name {
+  justify-content: start;
+  display: flex;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 24px;
+}
+
+.list-price {
+  justify-content: start;
+  display: flex;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  text-decoration-line: line-through;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 24px;
+}
+
+.price-product {
+  justify-content: start;
+  display: flex;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.info-price {
+  justify-content: start;
+  display: flex;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.spot-price {
+  justify-content: start;
+  display: flex;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: #000000;
+  padding-top: 16px;
+  gap: 4px;
+}
+
+.add-to-cart {
+  width: 100%;
+  height: 48px;
+  border: none;
+  background: #042ca6;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 12px 40px;
+  margin-top: 30px;
+}
